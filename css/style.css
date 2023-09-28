@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.gallery-item {
+    background: #eee url('../img/forest.jpg');
+    background-size: cover;
+    width:24%;
+    display: inline-block;
+    position: relative;
+    height: 130px;
+}
+
+.gallery-item .gallery-block-content {
+    background-color: rgba(9, 25, 97, 0.4);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.gallery-item .gallery-block-content h3 {
+    color: white;
+    font-size: 0.8em;
+}
+
+h1 {
+    font-size: 3em;;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+header {
+    background: #eee url('../img/space.jpg');
+    background-size: cover;
+    padding: 60px 0;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+    text-align: right;
+}
+
+.small-img {
+    display: inline-block;
+    width: 23%;
+    margin: 5px;
+}
+
+.small-img img {
+    width: 100%;
+}
+
+.tag-button {
+    display: inline-block;
+    width: 115px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #4E9CAF;
+    color: #4E9CAF;
+    background: white;
+    line-height: 1.5;
+}
+
+.tag-button:hover {
+    background: #4E9CAF;
+    color: white;
+}
+
+.tag-link {
+    text-decoration: none;
+}
+
+.second-gallery {
+    text-align: center;
+    margin: 30px;
+}
+
+.restricted-width {
+    max-width: 800px;
+}
+
+.gallery-item:hover {
+    margin-bottom: -3px;
+}
+
+/* Helpers */
+
+.center-block {
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
