@@ -99,6 +99,14 @@ header p {
     margin-bottom: -3px;
 }
 
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+}
+
 /* Helpers */
 
 .center-block {
